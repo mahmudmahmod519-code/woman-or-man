@@ -126,7 +126,7 @@ def predict_face(image):
 
 
 path=input("enter absolute path for video :")
-if not path:
+if not path or path=='0':
   path=0
   
 c=cv2.VideoCapture(path)
